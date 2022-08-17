@@ -1,0 +1,5 @@
+Error from server (AlreadyExists): pods "udacitymicro" already exists
+NAME           READY   STATUS    RESTARTS   AGE
+udacitymicro   1/1     Running   0          7m47s
+Forwarding from 127.0.0.1:8000 -> 80
+Handling connection for 8000
