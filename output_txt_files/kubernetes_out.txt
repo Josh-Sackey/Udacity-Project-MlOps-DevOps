@@ -1,5 +1,17 @@
-Error from server (AlreadyExists): pods "udacitymicro" already exists
+1. Log output from Kubernetes
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+2. Pod's name and status
 NAME           READY   STATUS    RESTARTS   AGE
 udacitymicro   1/1     Running   0          7m47s
-Forwarding from 127.0.0.1:8000 -> 80
-Handling connection for 8000
+
+3. log output of make_prediction.sh terminal
+Port: 8000
+{
+  "prediction@: [
+    20.35373177134412
+  ]
+}
+
